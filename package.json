@@ -1,6 +1,6 @@
 {
   "name": "real-estate-finance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real Estate Finance Formulas and Calculations right out of the box",
   "main": "index.js",
   "scripts": {
