@@ -34,7 +34,7 @@ const netOperatingIncome = function({
   repairs,
   maintenance,
   acquisition,
-  sale
+  sale_costs
 }){
   let args = Object.values(arguments);
   let gpi = annualGrossPotentialIncome(args[0]);
@@ -159,11 +159,12 @@ const capitalizationRate = function({
   repairs,
   maintenance,
   acquisition,
-  sale
+  sale_costs
+  sale_earned
 }){
   let args = Object.values(arguments);
   let gpi = annualGrossPotentialIncome(args[0]);
-  let totalExpenses = args.slice(1, args.length -1).reduce((a, b) => a + b, 0);
+  let totalExpenses = args.slice(1, args.length -2).reduce((a, b) => a + b, 0);
   let noi = (gpi - totalExpenses);
   let result = (noi / args[args.length -1]).toFixed(3);
   return result;
@@ -230,7 +231,7 @@ const estimatedPropertyValueByCapRate = function({
   // 200,
   // 3000,
   // 100000,
-  // 500000),
+  // 30000),
 //   capitalizationRate(
 //   34000,
 //   850,
@@ -245,6 +246,7 @@ const estimatedPropertyValueByCapRate = function({
 //   200,
 //   3000,
 //   100000,
+//   30000,
 //   500000)
 // )
 
@@ -297,7 +299,7 @@ const cashFlowBeforeTaxes = function({
 //     200,
 //     3000,
 //     100000,
-//     500000
+//     30000
 //   ),
 //   10,
 //   540000,
@@ -347,7 +349,7 @@ const cashFlowAfterTaxes = function({
 //       200,
 //       3000,
 //       100000,
-//       500000
+//       30000
 //     ),
 //     10,
 //     540000,
@@ -454,7 +456,7 @@ const returnOnEquity = function({
 //         200,
 //         3000,
 //         100000,
-//         500000
+//         30000
 //       ),
 //       10,
 //       540000,
