@@ -4,6 +4,8 @@
 
 <p>Note: I took aout console logs so it only returns a value. If you would like to console log the return value, just wrap a console log around the function</p>
 
+<p>Note: if any of the arguments are irrelevant just place a 0 in it's proper place. It must still be there or else the function will throw an error</p>
+
 <code>npm install --save real-estate-finance</code>
 
 <code>
