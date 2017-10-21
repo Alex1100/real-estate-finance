@@ -2,7 +2,7 @@
 
 <p>I urge you to look at the repo and specifically the underlying index.js file and see if you need to edit some code to get the data formatted in another way.</p>
 
-<p>Note: I took aout console logs so it only returns a value. If you would like to console log the return value, just wrap a console log around the function</p>
+<p>Note: I took out the console logs so it only returns a value. If you would like to console log the return value, just wrap a console log around the function</p>
 
 <p>Note: if any of the arguments are irrelevant just place a 0 in it's proper place. It must still be there or else the function will throw an error</p>
 
