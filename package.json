@@ -1,0 +1,24 @@
+{
+  "name": "real-estate-finance",
+  "version": "1.0.0",
+  "description": "Real Estate Finance Formulas and Calculations right out of the box",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Real Estate",
+    "Commercial Real Estate",
+    "Real Estate Finance",
+    "Finance",
+    "Capitalization Rate",
+    "GRM",
+    "NOI"
+  ],
+  "author": "Alex1100 <alex100.software@gmail.com>",
+  "license": "MIT"
+}
