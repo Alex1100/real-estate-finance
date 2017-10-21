@@ -74,7 +74,7 @@
           repairs,
           maintenance,
           acquisition,
-          sale_costs
+          sale_costs,
           sale_earned
         )
     </code>
