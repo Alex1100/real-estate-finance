@@ -159,7 +159,7 @@ const capitalizationRate = function({
   repairs,
   maintenance,
   acquisition,
-  sale_costs
+  sale_costs,
   sale_earned
 }){
   let args = Object.values(arguments);
